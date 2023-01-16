@@ -32,7 +32,7 @@ public class Zoo {
         for (int i = 0; i < secteursAnimaux.size(); i++) {
             if (secteursAnimaux.get(i).obtenirType() == a.getTypeAnimal()) {
                 secteursAnimaux.get(i).ajouterAnimal(a);
-                return 0;
+                return;
             }
         }
     }
