@@ -3,7 +3,7 @@ package com.POO.TP1;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Zoo implements Service {
+public class Zoo {
     private int visiteurs;
     private List<Secteur> secteursAnimaux;
     private int nbVisiteurMaxParSecteur;
